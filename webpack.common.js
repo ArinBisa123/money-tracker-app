@@ -41,7 +41,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: "Dashboard",
       filename: "index.html",
-      template: path.resolve(__dirname, "src/views/index.html"),
+      template: path.resolve(__dirname, "src/view/index.html"),
     }),
 
     new CleanWebpackPlugin(),
